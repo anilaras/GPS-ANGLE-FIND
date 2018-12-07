@@ -1,0 +1,16 @@
+#######################################
+# Syntax Coloring Map gpsPointer
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+gpsPointer	KEYWORD1	gpsPointer
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+setPointOne	KEYWORD2
+setPointTwo	KEYWORD2
+acibul	KEYWORD2
