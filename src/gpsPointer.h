@@ -20,6 +20,7 @@ class gpsPointer{
       double findAngle();
       void setBasePoint(double latitude, double longitude);
       void setTargetPoint(double latitude, double longitude);
+      double distance(long double lat1, long double long1,long double lat2, long double long2);
 };
 
 #endif
