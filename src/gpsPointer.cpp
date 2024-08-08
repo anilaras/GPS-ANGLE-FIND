@@ -51,14 +51,14 @@ double gpsPointer::distance(long double lat1, long double long1,
 }
 
 double gpsPointer::findAngle() {
-    return DegreeBearing(this - > lat1, this - > lon1, this - > lat2, this - > lon2);
+    return DegreeBearing(this -> lat1, this -> lon1, this -> lat2, this -> lon2);
 }
 void gpsPointer::setBasePoint(double latitude, double longitude) {
-    this - > lat1 = latitude;
-    this - > lon1 = longitude;
+    this -> lat1 = latitude;
+    this -> lon1 = longitude;
 }
 
 void gpsPointer::setTargetPoint(double latitude, double longitude) {
-    this - > lat2 = latitude;
-    this - > lon2 = longitude;
+    this -> lat2 = latitude;
+    this -> lon2 = longitude;
 }
